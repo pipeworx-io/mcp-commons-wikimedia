@@ -2,8 +2,8 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.pipeworx-io/commons-wikimedia",
   "title": "Commons Wikimedia",
-  "description": "Wikimedia Commons file/image/audio/video search via MediaWiki Action API",
-  "version": "0.1.0",
+  "description": "Wikimedia Commons MCP — Action API for files.",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/commons-wikimedia",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-commons-wikimedia",
