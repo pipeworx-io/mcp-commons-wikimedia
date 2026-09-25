@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/commons-wikimedia",
   "title": "Commons Wikimedia",
   "description": "Wikimedia Commons MCP — Action API for files.",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "websiteUrl": "https://pipeworx.io/packs/commons-wikimedia",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-commons-wikimedia",
