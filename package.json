@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-commons-wikimedia",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Wikimedia Commons MCP — Action API for files.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-53cf8118f95763cccbe9eead0f00369773ed9ad35a065985dfea1664ca458ff4",
-    "sourceCommit": "b0a4b8e2f3f5b3a4c3f9f2c9a73f91b20d32ce11"
+    "sourceHash": "v1-f4bf7bd808e8fc6b30cb86b766382262fa0a9b627364834ca17fd079849863b4",
+    "sourceCommit": "f1ef7a2f6b9cb1b8da1374ec2fcb28c661582b35"
   }
 }
