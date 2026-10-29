@@ -1,0 +1,96 @@
+[
+  {
+    "name": "search",
+    "description": "Full-text search across Commons.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string"
+        },
+        "namespace": {
+          "type": "number",
+          "description": "0 (article) | 6 (file, default) | 14 (category)"
+        },
+        "limit": {
+          "type": "number",
+          "description": "1-500 (default 20)."
+        },
+        "offset": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "query"
+      ]
+    }
+  },
+  {
+    "name": "file_info",
+    "description": "File metadata (size, mime, license, upload date, thumbnail urls).",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string",
+          "description": "e.g. \"File:Cat.jpg\""
+        }
+      },
+      "required": [
+        "title"
+      ]
+    }
+  },
+  {
+    "name": "file_revisions",
+    "description": "File revision history.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "limit": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "title"
+      ]
+    }
+  },
+  {
+    "name": "category_members",
+    "description": "Items in a Commons category.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "category": {
+          "type": "string",
+          "description": "e.g. \"Category:Cats\""
+        },
+        "limit": {
+          "type": "number"
+        },
+        "cmcontinue": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "category"
+      ]
+    }
+  },
+  {
+    "name": "random_image",
+    "description": "Random image (optionally from a category).",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "category": {
+          "type": "string"
+        }
+      }
+    }
+  }
+]
