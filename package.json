@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-commons-wikimedia",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Wikimedia Commons MCP — Action API for files.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "commons-wikimedia",
     "gatewaySlug": "commons-wikimedia",
-    "sourceHash": "v1-0183b4f4673571b70be15db09875bf3947b44f510fe890172775fcbda2f41096",
-    "sourceCommit": "4277282d72f9bf55e548b3799aaf737baf22152f"
+    "sourceHash": "v1-dfe4e5aeb94959beb3d5bd8d385628c3e819c7f0ea93483351850b9565e69b7d",
+    "sourceCommit": "8cc978183948532674e797c429305c9d8ab2a1c3"
   }
 }
